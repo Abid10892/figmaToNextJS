@@ -1,0 +1,88 @@
+.overViewDetail{
+  width: 50%;
+  height: 100vh;
+  overflow-y: scroll;
+}
+.overView{
+  padding: 30px;
+  width: 100%;
+  background: #fff;
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.detail h1{
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.detail p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.landmark{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.icon {
+  display: flex;
+  gap: 5px;
+}
+
+.icon p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #4374FB;
+}
+
+.distance h6{
+  font-size: 20px;
+  font-weight: 400;
+  text-align: end;
+}
+
+.distance p {
+  font-size: 11px;
+  font-weight: 400;
+  color: rgba(0,0,0,0.30);
+  text-align: end;
+}
+
+.airport{
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn button{
+  background-color: #fff;
+  color: #4375fb;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 17px 31px;
+  border: 2px solid #4375fb;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  white-space: nowrap;
+}
+
+@media screen and (max-width:600px){
+  .overViewDetail{
+    width: 100%;
+    overflow-x: hidden;
+  }
+}

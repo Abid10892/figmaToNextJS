@@ -1,0 +1,116 @@
+
+.topNav {
+  height: 107px;
+  background-color: #fff;
+  padding: 30px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  padding: 17px 31px;
+  background: #4375FB;
+  color: #f2f2f2;
+  font-size: 14px;
+  font-weight: 400;
+  border: none;
+  cursor: pointer;
+}
+
+.afterNav{
+  height: 102px;
+  background-color: #fff;
+  padding: 30px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.afterNav h2{
+  font-size: 32px;
+  font-weight: 700;
+  color: #000;
+}
+
+.sites {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.site1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.active {
+  color: rgba(0, 0, 0, 0.25);
+  width: 30px;
+  height: 32px;
+  display: flex;
+  justify-content: space-around;
+  gap: 5px;
+  align-items: center;
+}
+
+.focus {
+  color: #000;
+}
+
+.site1 .underline {
+  background-color: #000;
+}
+
+.active p {
+  font-size: 18px;
+  font-weight: 500;
+  text-align: right;
+}
+
+.site1 span {
+  background-color: rgba(0, 0, 0, 0.25);
+  width: 30px;
+  height: 2.498px;
+}
+
+.arrow{
+  stroke-width: 0.25px;
+  stroke: rgba(0, 0, 0, 0.25);
+}
+
+
+
+
+
+@media screen and (max-width: 820px){
+  .afterNav{
+    flex-direction: column;
+    padding: 10px 40px;
+  }
+  
+}
+
+
+@media screen and (max-width: 670px){
+  .afterNav h2{
+    font-size: 25px;
+  }  
+}
+
+@media screen and (max-width: 600px){
+  
+  .topNav{
+    padding: 10px 20px;
+  }
+  .topNav .btn{
+    padding: 10px 19px;
+  }
+  .afterNav h2{
+    font-size: 18px;
+  }  
+  
+  
+}
+

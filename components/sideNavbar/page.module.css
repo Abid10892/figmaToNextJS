@@ -1,0 +1,52 @@
+.sideNav {
+  width: 25%;
+  height: 100vh;
+}
+
+.logo, .navOptions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  background-color: #fff;
+  margin-bottom: 5px;
+}
+
+.navOptions {
+  height: 142.5px;
+  color: rgba(0, 0, 0, 0.30);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.navOptions span {
+  font-weight: 700;
+  color: #000;
+}
+
+.blank{
+  height: 225px;
+  background-color: #fff;
+}
+
+
+
+
+
+
+@media screen and (max-width: 600px){
+  
+  .sideNav{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .logo, .navOptions,.blank{
+    width: auto;
+    height: 50px;
+  }
+  
+}
+
